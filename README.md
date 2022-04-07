@@ -1,6 +1,6 @@
 # Design-Pattern
-디자인패턴 스터디
-- 생성 관련 패턴
+## 디자인패턴 스터디
+- ### 생성 관련 패턴
 
 - -[ ] 싱글톤 (Singleton) 패턴
 - -[ ] 팩토리 메소드 (Factory method) 패턴
@@ -8,7 +8,7 @@
 - -[ ] 빌더 (Builder) 패턴
 - -[ ] 프로토타입 (Prototype) 패턴
 
-- 구조 관련 패턴
+- ### 구조 관련 패턴
 
 - -[ ] 어댑터 (Adapter) 패턴
 - -[ ] 브릿지 (Bridge) 패턴
@@ -18,7 +18,7 @@
 - -[ ] 플라이웨이트 (Flyweight) 패턴
 - -[ ] 프록시 (Proxy) 패턴
 
-- 행동 관련 패턴
+- ### 행동 관련 패턴
 - -[ ] 책임 연쇄 패턴 (Chain-of-responsibility) 패턴
 - -[ ] 커맨드 (Command) 패턴
 - -[ ] 인터프리터 (Interpreter) 패턴
