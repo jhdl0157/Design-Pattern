@@ -2,7 +2,7 @@
 ## 디자인패턴 스터디
 - ### 생성 관련 패턴
 
-- -[ ] 싱글톤 (Singleton) 패턴
+- -[x] 싱글톤 (Singleton) 패턴
 - -[x] 팩토리 메소드 (Factory method) 패턴
 - -[ ] 추상 팩토리 (Abstract factory) 패턴
 - -[x] 빌더 (Builder) 패턴
