@@ -11,9 +11,7 @@ public interface ShipFactory {
     }
 
     Ship createShip();
-    private  void sendEmailTo(String email, Ship ship) {
-        System.out.println(ship.getName() + " 다 만들었습니다.");
-    }
+
 
     private void validate(String name,String email){
         if (name == null || name.isBlank()) {
@@ -26,4 +24,6 @@ public interface ShipFactory {
     private  void prepareFor(String name) {
         System.out.println(name + " 만들 준비 중");
     }
+
+    void sendEmailTo(String email, Ship ship);
 }

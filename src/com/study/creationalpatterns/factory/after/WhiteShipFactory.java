@@ -8,6 +8,11 @@ public class WhiteShipFactory implements ShipFactory{
         return new WhiteShip();
     }
 
+    @Override
+    public void sendEmailTo(String email, Ship ship) {
+
+    }
+
 
     //새로운 기능을 넣을려면 코드가 고쳐져야한다. 변경에 닫혀져있는 객체지향의 원치 위반 만들어지는 과정이 이리저리 산만해서 코드 가독성이 떨어진다.
 //    public static Ship orderShip(String name, String email) {
