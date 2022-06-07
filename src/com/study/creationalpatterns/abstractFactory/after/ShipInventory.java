@@ -8,6 +8,7 @@ public class ShipInventory {
         ShipFactory shipFactory =new WhiteshipFactory(new WhitePartsProFactory());
         Ship ship=shipFactory.createShip();
         System.out.println(ship.getAnchor().getClass());
+
         System.out.println(ship.getWheel().getClass());
     }
 }
